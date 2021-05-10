@@ -49,3 +49,23 @@ window.onload = function () {
     }
   }
 };
+
+// Digital clock
+
+setInterval(function () {
+  getTime();
+}, 1000);
+
+function getTime() {
+  var today = new Date();
+  document.getElementById("dw2").innerHTML =
+    today.getHours() +
+    ":" +
+    checkTime(today.getMinutes()) +
+    ":" +
+    checkTime(today.getSeconds());
+}
+
+function checkTime(v) {
+  return v > 9 ? v : "0" + v;
+}
