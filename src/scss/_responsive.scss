@@ -1,0 +1,77 @@
+@media screen and (max-width: 1444px) {
+  .svg {
+    height: 80vh;
+  }
+
+  .digitalWatch {
+    position: absolute;
+    left: 97%;
+    top: -25%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .svg {
+    height: 70vh;
+  }
+
+  .wrapper__buttons {
+    display: grid;
+  }
+
+  .digitalWatch {
+    position: absolute;
+    left: 15%;
+    top: -50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .svg {
+    height: auto;
+    width: 55vw;
+    position: absolute;
+    top: 10rem;
+    right: 9vw;
+  }
+
+  .wrapper {
+    position: absolute;
+    bottom: -85rem;
+  }
+
+  .digitalWatch {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+
+    .watch {
+      font-size: 5rem;
+    }
+  }
+
+  .digitalWatch_title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .svg {
+    height: auto;
+    width: 75vw;
+    position: absolute;
+    top: -4rem;
+    right: 18vw;
+  }
+
+  .wrapper {
+    width: auto;
+    height: 88rem;
+  }
+
+  .digitalWatch {
+    position: absolute;
+    left: 15%;
+    top: 20%;
+  }
+}
