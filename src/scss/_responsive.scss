@@ -12,7 +12,8 @@
 
 @media screen and (max-width: 1024px) {
   .svg {
-    height: 70vh;
+    height: auto;
+    width: 55vw;
   }
 
   .wrapper__buttons {
@@ -61,17 +62,18 @@
     width: 75vw;
     position: absolute;
     top: -4rem;
-    right: 18vw;
+    right: 10vw;
   }
 
   .wrapper {
-    width: auto;
-    height: 88rem;
+    width: 88%;
+    height: auto;
+    left: 2rem;
   }
 
   .digitalWatch {
     position: absolute;
-    left: 15%;
+    left: 20%;
     top: 20%;
   }
 }
