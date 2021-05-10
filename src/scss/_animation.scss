@@ -1,0 +1,14 @@
+#clock-arrow {
+  animation: clock 1.5s infinite linear;
+  transform-box: fill-box; /* if the animation is not behaving the way it is, two properties not to be forgotten about USE IT*/
+  transform-origin: bottom; /*if the animation is not behaving the way it is, two properties not to be forgotten about USE IT*/
+}
+
+@keyframes clock {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
